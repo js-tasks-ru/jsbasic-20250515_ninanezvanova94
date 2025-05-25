@@ -1,6 +1,17 @@
-let calculator = {
-  // ваш код
-};
+  let calculator = {
 
-// НЕ УДАЛЯТЬ СТРОКУ, НУЖНА ДЛЯ ПРОВЕРКИ
+    read(){
+      this.a = +prompt('a?', 0);
+      this.b = +prompt('b?', 0);
+    },
+
+    sum(){
+      return this.a + this.b;
+    },
+
+    mul(){
+      return this.a * this.b;
+    }
+  }
+
 window.calculator = calculator; // делает ваш калькулятор доступным глобально
