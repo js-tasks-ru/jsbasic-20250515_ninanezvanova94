@@ -19,8 +19,14 @@ thead {
 
 .available td {
     border: 2px solid green;
+    background-color: #65bff3;
 }
 
 .unavailable td {
     border: 2px solid red;
 }
+
+
+   /* .female {
+    background-color: #932bb3;
+    }*/
