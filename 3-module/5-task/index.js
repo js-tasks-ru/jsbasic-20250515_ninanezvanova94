@@ -1,3 +1,4 @@
 function getMinMax(str) {
-  // ваш код...
-}
+  str = str.split(' ').filter(item => Number(item));
+  return {min: Math.min(...str), max: Math.max(...str)};
+};
