@@ -24,7 +24,7 @@ function highlight(table) {
       }
   }
 
-  //клвсс в зависимости от значения атрибута
+  //класс в зависимости от значения атрибута
   for (let i = 0; i < table.rows.length; i++) {      
       row = table.rows[i];
       cell = row.cells[3];
