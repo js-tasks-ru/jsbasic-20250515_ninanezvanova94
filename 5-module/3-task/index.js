@@ -1,5 +1,4 @@
 function initCarousel() {
-
   const slides = document.querySelector('.carousel__inner');
   const slide = document.querySelectorAll('.carousel__inner');
 
@@ -27,6 +26,5 @@ function initCarousel() {
       } 
     }; 
   });
-
 }
 
