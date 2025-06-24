@@ -30,11 +30,11 @@
       </tbody>
     </table>
   </div>
-
+<div >
   <h2>Результат выполнения вашего кода:</h2>
-
+ <script src="index.js"></script>
   <script type="module">
-    import UserTable from './index.js';
+   //import UserTable from './index.js';
 
     let rows = [
       {
@@ -62,9 +62,13 @@
         city: 'Chita'
       }
     ];
-
+    
     let table = new UserTable(rows);
     document.body.append(table.elem);
+
+   // console.log(table.elem.querySelectorAll('tbody tr').length);
+   // console.log(table.elem.outerHTML);
+    //console.log(table.elem.querySelector('tbody tr'));
 
   </script>
 </body>
