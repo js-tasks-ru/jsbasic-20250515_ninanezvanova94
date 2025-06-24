@@ -69,10 +69,10 @@ export default class UserTable {
       let row = document.createElement('tr');//создается строка таблицы
 
       headers.forEach(header => {//для каждого заголовка
-      let cell = document.createElement('td');//создается ячейка
-      cell.textContent = item[header];//устанавливает текст ячейки равным значению свойства объекта, соответствующего заголовку
-      row.appendChild(cell);//добавляет ячейку в строку
-    });     
+        let cell = document.createElement('td');//создается ячейка
+        cell.textContent = item[header];//устанавливает текст ячейки равным значению свойства объекта, соответствующего заголовку
+        row.appendChild(cell);//добавляет ячейку в строку
+      });     
 
      // Добавление кнопки в конце строки
       let buttonCell = document.createElement("td");
